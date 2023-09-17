@@ -1,8 +1,16 @@
 from elevenlabs import generate, play, set_api_key, save
 
-voice = generate(
-  text="Hello! 你好! Hola! नमस्ते! Bonjour! こんにちは! مرحبا! 안녕하세요! Ciao! Cześć! Привіт! வணக்கம்!",
-  voice="AZnzlk1XvdvUeBnXmlld",
-  model="eleven_multilingual_v2"
-)
-save(voice,'test.wav')
+API_KEY = "cb9d21635e8b14c097d073eec1eefcf5"
+TTS_VOICE_ID = "AZnzlk1XvdvUeBnXmlld"
+set_api_key(API_KEY)
+
+def tts(text):
+    """
+    Принимает текстовый файл, возвращает запись в .wav формате
+    """
+    voice = generate(
+    text=text,
+    voice=TTS_VOICE_ID,
+    model="eleven_multilingual_v2"
+    )
+    save(voice,'answer.wav')
