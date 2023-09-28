@@ -1,0 +1,7 @@
+discord.py==2.3.2
+elevenlabs==0.2.26
+emoji==2.8.0
+openai==0.28.0
+pandas==2.1.1
+TTS==0.17.4
+TTS==0.17.5

@@ -13,6 +13,9 @@ bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 
 message_dict = {}  # словарь с сообщениями
 
+for k in range(1, d+1):
+    i
+
 @bot.event
 async def on_ready():
     print(f'We have logged in as {bot.user}')
