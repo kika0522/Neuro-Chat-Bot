@@ -2,7 +2,7 @@ import openai
 from tts import tts
 
 INPUT_PATH = 'prompt.txt'
-API_KEY = "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"
+API_KEY = ""
 openai.api_key = API_KEY
 
 with open('neuro.txt') as f:
