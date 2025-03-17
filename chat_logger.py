@@ -10,9 +10,9 @@ logging.basicConfig(level=logging.DEBUG,
 
 server = 'irc.chat.twitch.tv'
 port = 6667
-nickname = 'buka_uk'
-token = 'oauth:o9xakh2w789kejg4jbmvk464y5byrx'
-channel = '#buka_uk'
+nickname = '1'
+token = '1'
+channel = '1'
 
 def main():
     sock = socket.socket()
