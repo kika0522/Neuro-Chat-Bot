@@ -1,6 +1,6 @@
 from elevenlabs import generate, play, set_api_key, save
 
-API_KEY = "cb9d21635e8b14c097d073eec1eefcf5"
+API_KEY = ""
 TTS_VOICE_ID = "AZnzlk1XvdvUeBnXmlld"
 set_api_key(API_KEY)
 
