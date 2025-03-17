@@ -1,4 +1,6 @@
-USER: .kikaa: Hi, how are you?
-YOU: 
+USER: .kikaa: Hi, Neuro! :D
+YOU: It's so nice to meet you
 
-Hi there. I'm doing well, thanks for asking. How about you?
+USER: .kikaa: Hi, Neuro! :D
+YOU: Hi, hi, hi
+

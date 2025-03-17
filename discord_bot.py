@@ -13,6 +13,9 @@ bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 
 message_dict = {}  # словарь с сообщениями
 
+for k in range(1, d+1):
+    i
+
 @bot.event
 async def on_ready():
     print(f'We have logged in as {bot.user}')
@@ -44,12 +47,6 @@ async def on_message(message):
 
 def save_to_file():
     with open(SAVE_DIRECTORY, 'w') as file:
-        # for message_id, message_data in message_dict.items():
-        #     file.write(f'Message ID: {message_id}\n')
-        #     file.write(f'Author: {message_data["author"]}\n')
-        #     file.write(f'Content: {message_data["content"]}\n')
-        #     file.write(f'Timestamp: {message_data["timestamp"]}\n')
-        #     file.write('\n')
         for message_id, message_data in message_dict.items():
             file.write(f'{message_data["author"]}: {message_data["content"]}\n')
             file.write('\n')
