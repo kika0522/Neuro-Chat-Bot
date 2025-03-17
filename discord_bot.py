@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = 'MTExNTczNDc0NjM3NTQwOTcwNQ.GJE2mQ.SHbDW5lYA61V290k7wNYQ-D_kPvVijZS9qdEyE'  # токен Discord-бота
+TOKEN = ''  # токен Discord-бота
 SAVE_DIRECTORY = 'D:/Github/NeuroKEBAB/prompt.txt'  # директория сохранения сообщений
 PREFIX = '/'
 
